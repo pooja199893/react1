@@ -17,6 +17,30 @@ function Navbar() {
   function redirectToCounter(){
     router("/counter")
   }
+  function redirectToUseEffect1(){
+    router("/useeffect-1")
+  }
+  function redirectToUseEffect2(){
+    router("/useeffect-2")
+  }
+  function redirectToUseEffect3(){
+    router("/useeffect-3")
+  }
+  function redirectToUseEffect4(){
+    router("/useeffect-4")
+  }
+  function redirectToUseParams(){
+    router("/product/:id")
+  }
+   function redirectToPropDrilling(){
+    router("/props")
+   }
+   function redirectToMapping(){
+    router("/mapping")
+   }
+   function redirectToMapping2(){
+    router("/mapping2")
+   }
 
   return (
     <div className="parentDiv">
@@ -24,6 +48,14 @@ function Navbar() {
       <h1 onClick={redirectToLogin}>Login</h1>
       <h1 onClick={redirectToRegister}>Register</h1>
       <h1 onClick={redirectToCounter}>Counter</h1>
+      <h1 onClick={redirectToUseEffect1}>UseEffect1</h1>
+      <h1 onClick={redirectToUseEffect2}>UseEffect2</h1>
+      <h1 onClick={redirectToUseEffect3}>UseEffect3</h1>
+      <h1 onClick={redirectToUseEffect4}>UseEffect4</h1>
+      <h1 onClick={redirectToUseParams}>UseParams</h1>
+      <h1 onClick={redirectToPropDrilling}>PropDrilling</h1>
+      <h1 onClick={redirectToMapping}>Mapping</h1>
+      <h1 onClick={redirectToMapping2}>Mapping2</h1>
     </div>
   );
 }
