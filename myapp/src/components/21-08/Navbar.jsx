@@ -41,7 +41,15 @@ function Navbar() {
    function redirectToMapping2(){
     router("/mapping2")
    }
-
+    function redirectToTerneryOperator(){
+      router("/ternery-operator")
+    }
+    function redirectToStyledComponets(){
+      router("/styled-components")
+    }
+    function redirectToTodo(){
+      router ("/todo")
+    }
   return (
     <div className="parentDiv">
       <h1 onClick={redirectToHome}>Home</h1>
@@ -56,6 +64,9 @@ function Navbar() {
       <h1 onClick={redirectToPropDrilling}>PropDrilling</h1>
       <h1 onClick={redirectToMapping}>Mapping</h1>
       <h1 onClick={redirectToMapping2}>Mapping2</h1>
+      <h1 onClick={redirectToTerneryOperator}>Ternary</h1>
+      <h1 onClick={redirectToStyledComponets}>Styled</h1>
+      <h1 onClick={redirectToTodo}>TODO</h1>
     </div>
   );
 }
