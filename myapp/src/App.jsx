@@ -18,6 +18,7 @@ import Mapping2 from "./components/24-08/Mapping2";
 import Todo from "./components/25-08/Todo";
 import TerneryOperator from "./components/25-08/TerneryOperator";
 import StyledComponets from "./components/25-08/StyledComponets";
+import DynamicStyling from "./components/29-08/DynamicStyling";
 
 
 
@@ -64,6 +65,7 @@ function App() {
         <Route path="/ternery-operator" element={<TerneryOperator />} />
         <Route path="/styled-components" element={<StyledComponets />} />
         <Route path="/todo" element={<Todo />} />
+        <Route path="/dynamic-styling" element={<DynamicStyling />} />
       </Routes>
     </>
   );
