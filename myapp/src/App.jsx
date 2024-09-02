@@ -19,6 +19,9 @@ import Todo from "./components/25-08/Todo";
 import TerneryOperator from "./components/25-08/TerneryOperator";
 import StyledComponets from "./components/25-08/StyledComponets";
 import DynamicStyling from "./components/29-08/DynamicStyling";
+import RegisterValidation from "./components/31-08/RegisterValidation";
+import RegisterValidationEffect from "./components/31-08/RegisterValidationEffect";
+import UseReducer from "./components/01-09/UseReducer";
 
 
 
@@ -43,6 +46,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/register-validation" element={<RegisterValidation />} />
+        <Route
+          path="/register-validation-useeffect"
+          element={<RegisterValidationEffect />}
+        />
         <Route path="/counter" element={<Counter />} />
         <Route path="/useeffect-1" element={<UseEffect1/>} />
         <Route path="/useeffect-2" element={<UseEffect2 />} />
@@ -66,6 +74,7 @@ function App() {
         <Route path="/styled-components" element={<StyledComponets />} />
         <Route path="/todo" element={<Todo />} />
         <Route path="/dynamic-styling" element={<DynamicStyling />} />
+        <Route path="/use-reducer" element={<UseReducer />} />
       </Routes>
     </>
   );
