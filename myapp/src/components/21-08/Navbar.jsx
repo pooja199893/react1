@@ -50,6 +50,9 @@ function Navbar() {
     function redirectToTodo(){
       router ("/todo")
     }
+    function redirectToProduct(){
+      router("all-products")
+    }
   return (
     <div className="parentDiv">
       <h1 onClick={redirectToHome}>Home</h1>
@@ -67,6 +70,7 @@ function Navbar() {
       <h1 onClick={redirectToTerneryOperator}>Ternary</h1>
       <h1 onClick={redirectToStyledComponets}>Styled</h1>
       <h1 onClick={redirectToTodo}>TODO</h1>
+      <h1 onClick={redirectToProduct}>PRODUCT</h1>
     </div>
   );
 }

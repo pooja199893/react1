@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-// import { MyApp, MyApp2 } from './App';
 import { BrowserRouter } from "react-router-dom";
 import {Toaster} from "react-hot-toast";
 import ParentAuthComponent from "./components/context/AuthContext";
