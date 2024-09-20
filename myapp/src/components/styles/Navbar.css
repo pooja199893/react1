@@ -1,7 +1,7 @@
 .parentDiv {
     display: flex; 
     justify-content: space-around;
-    border: 2px solid black;
+    border: 2px solid rgb(186, 4, 4);
     background-color: rgb(242, 202, 237);
     font-size: small;
     
@@ -10,9 +10,10 @@
   
   .parentDiv h1 {
     cursor: pointer;
-    border: 2px solid green;
+    border: 2px solid brown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    color: blueviolet;
   
   }
   .counter {
