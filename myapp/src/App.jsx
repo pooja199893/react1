@@ -29,7 +29,7 @@ import Memo from "./components/10-09/Memo";
 import UseCallback from "./components/12-09/UseCallback";
 import AllProducts from "./components/14-09/AllProducts";
 import UseRef from "./components/15-09/UseRef";
-
+import ReduxCounter from "./components/19-09/ReduxCounter";
 
 function App() {
   const [students, setStudents] = useState([
@@ -88,6 +88,7 @@ function App() {
         <Route path="/use-callback" element={<UseCallback />} />
         <Route path="/all-products" element={<AllProducts />} />
         <Route path="/use-ref" element={<UseRef />} />
+        <Route path="/redux-counter" element={<ReduxCounter />} />
       </Routes>
 
     </>

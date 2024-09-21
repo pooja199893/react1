@@ -6,12 +6,16 @@ import { BrowserRouter } from "react-router-dom";
 import {Toaster} from "react-hot-toast";
 import ParentAuthComponent from "./components/context/AuthContext";
 import ParentComponetForDarkModeContext from "./components/05-09-context/DarkModeContext";
+import { Provider } from "react-redux";
+import store from "./components/redux/store";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-    <Toaster
+    <Provider store={store}>
+      <BrowserRouter>
+      <Toaster
   position="top-center"
   reverseOrder={false}
   gutter={8}
@@ -41,6 +45,7 @@ root.render(
         <App />
       </ParentAuthComponent>
     </ParentComponetForDarkModeContext>
-  </BrowserRouter>
+   </BrowserRouter>
+  </Provider>
   </React.StrictMode>
 );
